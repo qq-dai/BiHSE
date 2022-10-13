@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBCE.a CMakeFiles/BCE.dir/BCE.cpp.o
+/usr/bin/ranlib libBCE.a

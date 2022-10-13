@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbiplexv2.a CMakeFiles/biplexv2.dir/biplexv2.cpp.o
+/usr/bin/ranlib libbiplexv2.a
