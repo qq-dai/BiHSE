@@ -22,5 +22,5 @@ To execute the code, you need to run the following executable files, which accep
 An running example:
 
 ```
-./biclique/bin/MBC -f data/ -d core
+./biclique/bin/MBC -f data/moreno.txt -d core
 ```
