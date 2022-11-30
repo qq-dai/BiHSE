@@ -24,3 +24,5 @@ An running example:
 ```
 ./biclique/bin/MBC -f datas/moreno.txt -d core
 ```
+
+In 'BCE_ploy.cpp', we also implement a polynomial delay algorithm for maximal biclique enumerations. To compile this file, just change the file name of 'BCE_poly.cpp' to 'BCE.cpp'.
