@@ -91,10 +91,9 @@ printf("ans %u\n", ans);
 g->print();
 #endif
 
-    printf("maxCu=%d, maxCv=%d\n", g->maxCu2, g->maxCv2);
     int32_t t = 0, z = 1;
-    if (g->maxCu2 > g->maxCv2) {t=1;z=0;}
-    // if (g->maxDu < g->maxDv) {t=1;z=0;}
+    // if (g->maxCu2 > g->maxCv2) {t=1;z=0;}
+    if (g->maxDu < g->maxDv) {t=1;z=0;}
     printf("t=%d,z=%d\n",t,z);
     for(uint32_t u = 0; u < g->n[t]; u++) {
         S[t].c = S[t].r = g->n[t];
