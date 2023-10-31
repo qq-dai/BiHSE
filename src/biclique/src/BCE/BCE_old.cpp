@@ -212,12 +212,12 @@ uint32_t sumCandidateSets = 0, maxCandidateSets = 0;
         }
     //}
 
-sumCandidateSets += S[t].r - S[t].c + S[z].r - S[z].c;
-maxCandidateSets = std::max(maxCandidateSets, S[t].r - S[t].c + S[z].r - S[z].c);
+// sumCandidateSets += S[t].r - S[t].c + S[z].r - S[z].c;
+// maxCandidateSets = std::max(maxCandidateSets, S[t].r - S[t].c + S[z].r - S[z].c);
         bbranch(0); 
     }
-printf("sumCandidateSets: %u\n", sumCandidateSets);
-printf("maxCandidateSets: %u\n", maxCandidateSets);
+// printf("sumCandidateSets: %u\n", sumCandidateSets);
+// printf("maxCandidateSets: %u\n", maxCandidateSets);
     // bbranch2(0, {0, 0}, {0, 0}, {g->n[0], g->n[1]})
 
     printf("maxBiCliqueCount: %llu\n", totalMaximalCount);
